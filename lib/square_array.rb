@@ -1,5 +1,9 @@
 def square_array(ary)
-  a = Array.new(ary.length)
-  ary.each_index { |i| a[i] = ary[i] * ary[i] }
-  a
+  new_array = []
+  counter = 0 
+  while counter < ary.size do
+    squared << (ary[counter] ** 2)
+    counter += 1 
+  end
+  return new_array
 end
