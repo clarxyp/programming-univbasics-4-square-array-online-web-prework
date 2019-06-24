@@ -1,6 +1,4 @@
-def square_array(array)
-  counter = 0
-  array = (1..5).to_a
-  
-  end
+def square_array(numbers)
+  numbers = [1,2,3]
+  square_array(numbers) = numbers**2
 end 
